@@ -1,18 +1,13 @@
-package telran.jcf;
-
-import static org.junit.jupiter.api.Assertions.*;
-
-import java.util.Arrays;
-import java.util.IntSummaryStatistics;
-import java.util.List;
-import java.util.Map;
-import java.util.Random;
-import java.util.stream.Collectors;
+package telran.stream;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
-import telran.stream.StreamTask;
+
+import java.util.*;
+import java.util.stream.Collectors;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class StreamTest {
 
@@ -92,9 +87,17 @@ class StreamTest {
     }
 
     @Test
+    @Disabled
     void printDigitStatisticsTest()
     {
         StreamTask.printDigitStatistics();
+    }
+
+    @Test
+
+    void  printSportLotoNumbersTest()
+    {
+        StreamTask.printSportLotoNumbers();
     }
 
 }

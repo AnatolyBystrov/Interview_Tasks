@@ -1,8 +1,6 @@
 package telran.stream;
 
-import java.util.List;
-import java.util.Map;
-import java.util.Random;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class StreamTask {
@@ -30,4 +28,37 @@ public class StreamTask {
                 .limit(number_Of_Elements)
                 .toList();
     }
+
+    public static void printSportLotoNumbers()
+    {
+        //prints random 6 unique numbers from 1 to 49
+        new Random().ints(1, 50)
+                .limit(6)
+                .distinct().forEach(n-> System.out.print(n + " "));
+    }
+
+    public  void displayOccurrences(String [] strings)
+    {
+        Map <String, Integer> map =  getMap(strings);
+        List <Map.Entry<String, Integer>> list = new ArrayList<>(map.entrySet());
+        list.sort((e1,e2) -> {
+            int res = Long.compare(e2.getValue(), e1.getValue());
+            if (res==0)
+            {
+                res = e1.getKey().compareTo(e2.getKey());
+            }
+            return res;
+        });
+    }
+
+    private  Map<String, Integer> getMap(String[] strings) {
+        Map <String, Integer> res =  new HashMap();
+        for (String str: strings)
+        {
+            res.merge(str,1, Integer::sum);
+        }
+        return res;
+    }
+
+
 }

@@ -1,8 +1,7 @@
-package telran.interviews;
+package telran.java_collection;
 
 import java.util.Comparator;
 import java.util.LinkedList;
-import java.util.List;
 
 public class MyStack<T> {
 
@@ -25,6 +24,8 @@ public class MyStack<T> {
 
     }
     public T pop() {
+        //TODO removes the stack's top element and returns it out
+        //In the case no elements exist in the stack the method throws exception NoSuchElementException
         T element = values.removeLast();
         if (comp.compare(element, maxValues.getLast()) == 0) {
             maxValues.removeLast();
@@ -36,6 +37,8 @@ public class MyStack<T> {
         return values.isEmpty();
     }
     public T getMax() {
+        //TODO returns maximal element from the stack
+        //In the case no elements exist in the stack the method throws exception NoSuchElementException
         return maxValues.getLast();
     }
 

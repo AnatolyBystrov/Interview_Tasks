@@ -4,15 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="379b7e20-8b9b-4a46-b828-d2e7f3b8df87" name="Changes" comment="HW26">
-      <change afterPath="$PROJECT_DIR$/src/main/java/telran/stream/StreamTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/telran/jcf/StreamTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/telran/interviews/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telran/interviews/MyStack.java" afterDir="false" />
+    <list default="true" id="379b7e20-8b9b-4a46-b828-d2e7f3b8df87" name="Changes" comment="HW27">
+      <change afterPath="$PROJECT_DIR$/src/main/java/telran/interviews/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/telran/interviews/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/telran/interviews/ConnectionsPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/telran/interviews/ConnectionsPoolImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/telran/interviews/MultiCounters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/telran/interviews/MyArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/telran/java_collection/ShootingRating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/telran/java_collection/LinkedHashMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/telran/java_collection/StandardListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/telran/jcf/LinkedHashMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telran/interviews/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telran/java_collection/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/telran/stream/StreamTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/telran/stream/StreamTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/telran/jcf/StandardListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/telran/jcf/StandardListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/telran/jcf/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/telran/jcf/StreamTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -30,7 +45,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2ULeKkAIe6dNf9Jopu0FbqEAySb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -42,13 +57,36 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_directory_selection": "/Users/anatoliybystrov/Desktop/gitidea/InterviewTasks/untitled/src/test/java",
+    "last_directory_selection": "/Users/anatoliybystrov/Desktop/gitidea/InterviewTasks/Standard-collection-interview-tasks/src/main/java/telran/java_collection",
     "last_opened_file_path": "/Users/anatoliybystrov/Desktop/gitidea/InterviewTasks/Standard-collection-interview-tasks",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.StreamTest">
-    <configuration name="StandardListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LinkedHashMapTest (1)">
+    <configuration name="All in Standard-collection-interview-task" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Standard-collection-interview-task" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedHashMapTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Standard-collection-interview-task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="telran.java_collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="telran.java_collection" />
+      <option name="MAIN_CLASS_NAME" value="telran.java_collection.LinkedHashMapTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedHashMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Standard-collection-interview-task" />
       <extension name="coverage">
         <pattern>
@@ -57,13 +95,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="telran.jcf" />
-      <option name="MAIN_CLASS_NAME" value="telran.jcf.StandardListTest" />
+      <option name="MAIN_CLASS_NAME" value="telran.jcf.LinkedHashMapTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedHashMapTest.getOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Standard-collection-interview-task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="telran.jcf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="telran.jcf" />
+      <option name="MAIN_CLASS_NAME" value="telran.jcf.LinkedHashMapTest" />
+      <option name="METHOD_NAME" value="getOrderTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamTest.printSportLotoNumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Standard-collection-interview-task" />
       <extension name="coverage">
         <pattern>
@@ -73,37 +127,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="telran.jcf" />
       <option name="MAIN_CLASS_NAME" value="telran.jcf.StreamTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="standardListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Standard-collection-interview-task" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="telran.jcf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="telran.jcf" />
-      <option name="MAIN_CLASS_NAME" value="telran.jcf.standardListTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="standardListTest.sublistTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Standard-collection-interview-task" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="telran.jcf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="telran.jcf" />
-      <option name="MAIN_CLASS_NAME" value="telran.jcf.standardListTest" />
-      <option name="METHOD_NAME" value="sublistTest" />
+      <option name="METHOD_NAME" value="printSportLotoNumbersTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,10 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StreamTest" />
-        <item itemvalue="JUnit.StandardListTest" />
-        <item itemvalue="JUnit.standardListTest" />
-        <item itemvalue="JUnit.standardListTest.sublistTest" />
+        <item itemvalue="JUnit.LinkedHashMapTest (1)" />
+        <item itemvalue="JUnit.LinkedHashMapTest.getOrderTest" />
+        <item itemvalue="JUnit.LinkedHashMapTest" />
+        <item itemvalue="JUnit.StreamTest.printSportLotoNumbersTest" />
+        <item itemvalue="JUnit.All in Standard-collection-interview-task" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693321881592</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="HW27">
+      <option name="closed" value="true" />
+      <created>1693322475563</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693322475563</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,17 +209,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HW26" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW26" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/telran/jcf/StreamTest.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="HW27" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW27" />
   </component>
 </project>

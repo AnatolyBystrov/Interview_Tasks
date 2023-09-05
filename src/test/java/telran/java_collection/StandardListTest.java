@@ -1,12 +1,14 @@
-package telran.jcf;
-
-import static org.junit.jupiter.api.Assertions.*;
-
-import java.util.*;
+package telran.java_collection;
 
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
+
+import java.util.ConcurrentModificationException;
+import java.util.LinkedList;
+import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class StandardListTest {
 
@@ -15,7 +17,6 @@ class StandardListTest {
     }
 
     @Test
-    @Disabled
     void test() {
         List<Integer> list = List.of(10, -5, 12, 13, 17, 10);
         assertThrows(UnsupportedOperationException.class, () -> list.remove(0));
@@ -27,7 +28,6 @@ class StandardListTest {
     }
 
     @Test
-    @Disabled
     void sublistTest() {
         LinkedList<Integer> linkedList = new LinkedList<>(List.of(10, -5, 12, 13, 17, 10));
         List<Integer> sublist1 = linkedList.subList(1, 3);
